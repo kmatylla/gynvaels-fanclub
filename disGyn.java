@@ -215,7 +215,7 @@ public class disGyn {
 	 */
 	public static void main(String[] args) {
 		if(args.length != 1 && args.length != 2){
-			System.out.println("Usage: dis [offset] <filename>");
+			System.out.println("Usage: dis.jar [offset] <filename>");
 			return;
 		}
 		String path=args[0];
